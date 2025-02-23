@@ -1,0 +1,100 @@
+Products:
+
+Amreal:
+What the automated system should be able to answer?
+General Property Questions
+Can I book an appointment for a property viewing?
+What properties are available for sale/rent?
+The house 38 harold walk cost £200K to buy, I earn £40,000 a year, have a £30,000 for a deposit and also have good credit score. What are the chances I can get a mortgage on this property? – then GPT should be able to answer.
+Can I filter properties by price, location, or size?
+What amenities does this property have?
+How many bedrooms and bathrooms does this property have?
+Is the property furnished or unfurnished?
+Search for me 4 bedroom house in London under £2000 a month for rent? -question like this it should be fit to answer
+Can I book an appointment for a flat viewing 6 43 harold walk?
+Yes sure what is your name?
+My name is Adam Amrani
+Here are the available times.
+
+Can I book an appointment to visit house 38 harold walk at 3:15? 
+I am sorry but unfortunately we have no 3:15 slots times available, however we have other slot times available but may I take your name before we proceed with other available time slots?
+Yes my name is Adam Amrani
+Here is the list of other available time slots!
+3:15
+3:45
+
+What is the square footage of the property?
+Is the property pet-friendly?
+What is the neighborhood like?
+How close is the property to schools, hospitals, and transport?
+What is the crime rate in this area?
+💰 2. Pricing & Financing
+What is the asking price/rental price of this property?
+Can I negotiate prices of properties to rent or to buy?
+How does the price compare to similar properties in the area?
+Are there any hidden costs property taxes or maintainance fees to such properties?
+estimated monthly mortgage payment of this house?
+What are the financing options available?
+What are the current interest rates for mortgages of these houses?
+Can I get a mortgage pre-approval?
+📑 3. Legal & Documentation
+What documents do I need to buy a house?
+What are the steps in the home-buying process?
+What fees are involved in closing a real estate transaction?
+Do I need a real estate agent, or can I buy directly?
+What is the difference between freehold and leasehold properties?
+Can foreigners buy property in this country?
+How long does the home-buying process usually take?
+Are there any zoning restrictions for this property?
+What are my rights as a tenant under the lease?
+How do I handle disputes with landlords or tenants?
+🏗 4. Property Condition & Inspection
+Has the property had any recent renovations?
+What condition is the property in?
+Are there any structural issues I should be aware of?
+When was the last inspection conducted?
+Are there any known plumbing, electrical, or roofing problems?
+What kind of heating and cooling system does the house have?
+Does the house come with appliances?
+Are there any warranties on major systems or appliances?
+Can I schedule a virtual tour?
+Can I book an in-person viewing?
+🔍 5. Real Estate Market Trends
+How is the real estate market performing in this area?
+Are home prices rising or falling in this neighborhood?
+What are the best areas for investment right now?
+What are the best houses to invest in right now?
+How do rental yields compare in different locations?
+What areas are expected to grow in value over the next few years?
+What are the common mistakes buyers make in this market?
+How competitive is the market (buyer’s vs. seller’s market)?
+What are the average days on market for properties in this area?
+How does seasonality affect real estate prices?
+🏦 6. Rental & Landlord Questions
+What is the typical rental agreement length?
+How much is the security deposit?
+Are utilities included in the rent?
+What happens if I need to break my lease early?
+How often does rent increase, and by how much?
+What is the eviction policy?
+Can I sublet my apartment?
+What should I do if my landlord is not making repairs?
+How do I report maintenance issues?
+What insurance do I need as a renter?
+📞 7. Customer Support & Next Steps
+How do I schedule a property visit?
+Can I schedule a property visit?
+Can I apply for a rental online?
+What is the Real estate agency contact number?
+What is the Real estate agency email address?
+What is the address of the real estate agency?
+How do I submit an offer for a house?
+How do I get in contact with an agent?
+Can I speak to an agent right now?
+How do I contact the landlord/property manager?
+What are the office hours of the real estate agency?
+How do I sign my lease or purchase agreement digitally?
+What payment methods are accepted for rent or deposits?
+Can I get assistance with moving or home insurance?
+How do I unsubscribe from real estate alerts?
+These are the 70 questions that should be asked on the real estate chatbot. Make sure when designing the automated system that it can adapt to each business so say for an example if a customer asks their chatbot what does it sell but it does not actually sell then it should reply by selling they don’t sell houses once it is attached to the real estate agencies data. Make sure there is also a multi-language model attached. Make sure like chat GPT the estate agent can add some general questions that pops up and he can also turn on and off these questions for showing. 

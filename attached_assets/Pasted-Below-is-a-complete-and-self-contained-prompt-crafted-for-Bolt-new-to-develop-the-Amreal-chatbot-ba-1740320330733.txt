@@ -1,0 +1,54 @@
+Below is a complete and self-contained prompt crafted for Bolt.new to develop the Amreal chatbot, based on the detailed discussion and key points provided in the user's query. The prompt incorporates the recommendation to use gpt-4o for its advanced capabilities, aligns with the real estate platform's needs, and specifies the technology stack and features as outlined.
+Prompt for Bolt.new to Create the Amreal Chatbot
+Develop a web-based chatbot for the Amreal real estate platform using Next.js for the frontend, Node.js for the backend, and integrate AI agents built with LangChain and LangGraph. The chatbot should be powered by OpenAI's gpt-4o model for natural language processing, leveraging its advanced capabilities to handle complex real estate tasks with high accuracy and reliability. The chatbot should manage a variety of customer queries through specialized agents, including:
+Core Features and Specialized Agents
+PropertySearchAgent:  
+Enables users to search for properties by applying filters such as price range, location, number of bedrooms, and amenities.  
+Connects to a MySQL property database using SQL queries to retrieve data.  
+Displays paginated results with comprehensive property details (e.g., descriptions, images, and links to full listings).
+AppointmentSchedulingAgent:  
+Facilitates booking of property viewings by integrating with Google Calendar to check agent availability and reserve time slots.  
+Collects user contact information (e.g., name, email, phone) and sends confirmation emails or messages upon booking.
+FinancialQueriesAgent:  
+Provides financial guidance by collecting user inputs like annual income, deposit amount, and credit score.  
+Estimates mortgage eligibility using a predefined calculation formula or integrates with external financial APIs (e.g., mortgage rate services).  
+Explains financing options in a clear, user-friendly manner.
+LegalGuidanceAgent:  
+Answers legal queries about required documents, property ownership types (e.g., freehold, leasehold), and tenant rights.  
+Sources responses from a knowledge base (e.g., a database or structured text files) tailored to real estate regulations.
+PropertyConditionAgent:  
+Retrieves and shares details about property conditions, including renovations, structural issues, and inspection history, from the MySQL property database.  
+Presents information clearly to assist user decision-making.
+MarketTrendsAgent:  
+Analyzes real estate market performance, price trends, and investment opportunities by integrating with external real estate data APIs (e.g., Zillow, Realtor.com).  
+Delivers actionable insights based on current market data.
+RentalManagementAgent:  
+Explains rental agreement terms, logs maintenance requests into a system for follow-up, and provides information on rent increases and eviction policies.  
+Ensures responses align with rental management best practices.
+CustomerSupportAgent:  
+Supplies agency contact information, facilitates communication with agents via email or chat, and supports digital signatures for agreements using a service like DocuSign.  
+Enhances user experience with prompt support options.
+Each agent should be modular and scalable, designed to handle its specific query type efficiently while leveraging gpt-4o’s capabilities for accurate and context-aware responses.
+Additional Features and Requirements
+Multi-Language Support:  
+Utilize gpt-4o’s multimodal and multilingual capabilities to provide real-time translation of user queries and responses, enabling interaction in users’ preferred languages.
+Conversational Interface:  
+Design an intuitive, responsive chat interface that maintains conversation context across multiple turns, guides users through complex queries, and handles follow-up questions seamlessly.
+AI Integration:  
+Integrate the OpenAI API to process user inputs with gpt-4o, ensuring precise, detailed, and reliable responses, particularly for high-complexity tasks like financial and legal guidance.
+Security:  
+Implement encryption (e.g., AES-256) for sensitive user data, such as financial details and personal information.  
+Ensure all API connections use HTTPS to protect data in transit.
+Management Dashboard:  
+Create a web-based dashboard with user authentication and role-based access control (e.g., admin vs. viewer roles).  
+Enable administrators to:  
+Update the property database with new listings or edits.  
+Configure chatbot settings, such as response tone, default language, or query prioritization.  
+Monitor performance metrics, including user interaction counts, query resolution rates, and system uptime.
+General Guidelines
+Ensure the chatbot is user-friendly, with a responsive design optimized for both desktop and mobile devices.  
+Support multiple concurrent users without performance degradation, leveraging Node.js’s asynchronous capabilities.  
+Include a feedback system allowing users to rate response helpfulness (e.g., thumbs up/down), providing data to refine the chatbot over time.
+Why gpt-4o?
+The Amreal chatbot uses gpt-4o as its primary model due to its advanced reasoning, multimodal capabilities (text, vision, and audio), and superior performance on complex tasks—critical for real estate applications like financial advice, legal guidance, and market trend analysis. While gpt-4o-mini, a smaller and cost-effective alternative launched in July 2024, could suffice for simpler tasks (e.g., property searches), gpt-4o ensures higher reliability and accuracy across all query types, aligning with Amreal’s need for customer trust and detailed interactions. For reference, "gpt 4-o" and "gpt 4-o mini" from the query are interpreted as gpt-4o and gpt-4o-mini, clarifying potential naming confusion based on OpenAI’s official announcements.
+Paste this prompt directly into Bolt.new to generate a robust, feature-rich chatbot tailored to the Amreal real estate platform!
